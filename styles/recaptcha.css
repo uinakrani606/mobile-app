@@ -1,0 +1,11 @@
+.recaptcha>div>div>div {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.error-message {
+  color: red;
+  display: block;
+  text-align: center;
+}

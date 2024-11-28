@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  venture-web:
+    build: .
+    image: venture-web
+    container_name: venture-web
+    restart: always
+    ports:
+      - "3000:3000" # Adjust the ports as needed
+    environment:
+      - YOUR_ENV_VAR=your_value # Add your environment variables here
